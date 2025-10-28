@@ -16,7 +16,7 @@ public class Sort {
             }
         }
         if(num>listOfNumbers.size()){
-            throw new IllegalArgumentException("Число выходит за ра размер массива");
+            throw new IllegalArgumentException("Число выходит за размер массива");
         }else {
             return listOfNumbers.get(num-1);
         }
